@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>support</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./smart-phone.css">
+    <link rel="stylesheet" href="./tablet.css">
+    <script src="../style/style.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="navbar">
+              <div class="nav">
+                <div class="logo">
+                  <img onclick="location.href = '#header';" style="cursor: pointer;" id="logo-img" src="./img/logo.svg" alt="" />
+                </div>
+                <div class="nav-list-1">
+                  <a class="nav-a" href="#">会社情報</a>
+                  <a class="nav-a" href="#">事業内容</a>
+                  <a class="nav-a" href="#">製品一覧</a>
+                  <a class="nav-a" href="#">採用情報</a>
+                  <a class="nav-a" href="#">ニュース</a>
+                </div>
+                <!-- ============side============== -->
+                <div id="mySidenav" class="sidenav pt-0 pb-0">
+                  <div
+                    class="footer-second"
+                    style="height: 100%; padding-top: 121px"
+                  >
+                    <div class="navbar-1">
+                      <div class="nav-1 gap-1">
+                        <div class="nav-list list-size">
+                          <div class="list-size-div-1 div-list-1">
+                            <a href="#" class="color-white">会社情報</a>
+                            <hr class="footer-hr-1 w-366 pt-0 pb-0" />
+                          </div>
+                          <div class="list-size-div-1 div-list-1">
+                            <a href="#" class="color-white">事業内容</a>
+                            <hr class="footer-hr-1 w-366 pt-0 pb-0" />
+                          </div>
+                          <div class="list-size-div-1 div-list-1">
+                            <a href="#" class="color-white">製品一覧</a>
+                            <hr class="footer-hr-1 w-366 pt-0 pb-0" />
+                          </div>
+                          <div class="list-size-div-1 div-list-1">
+                            <a href="#" class="color-white">採用情報</a>
+                            <hr class="footer-hr-1 w-366 pt-0 pb-0" />
+                          </div>
+                          <div class="list-size-div-1 div-list-1">
+                            <a href="#" class="color-white">ニュース</a>
+                            <hr class="footer-hr-1 w-366 pt-0 pb-0" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="header-btn size-change">
+                        <a class="header-support-1 color-green size-edit" href="#"
+                          >ユーザーサポート</a
+                        >
+                        <a class="header-ask-1 color-white pl-40 size-edit" href="#"
+                          >お問い合わせ</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- ==============end side============== -->
+              </div>
+              <div class="header-btn z-9999">
+                <a class="header-support" href="#">ユーザーサポート</a>
+                <a class="header-ask" href="#">お問い合わせ</a>
+                <a
+                  class="burger"
+                  id="burger"
+                  onclick="openNav()"
+                  onclick="this.classList.toggle('active');"
+                ></a>
+              </div>
+            </div>
+          </nav>
+          <div class="login-top-text">
+            <h1>SUPPORT INFO</h1>
+            <h2 class="h2">サポートインフォ</h2>
+            <div class="bread">
+                <h2>HOME</h2>
+                <img src="./img/bread.svg" alt="" />
+                <h2>ユーザーサポート</h2>
+                <img src="./img/bread.svg" alt="" />
+                <h3>サポートインフォ</h3>
+            </div>
+          </div>
+    </header>
+    <main>
+        <div class="view-all">
+            <div class="all-view">
+                <div class="check">
+                    <div class="check-1">
+                        <img src="./img/check.svg" alt="" />
+                        <h2>カテゴリ</h2>
+                    </div>
+                </div>
+                <div class="check-right">
+                    <div class="check-2">
+                        ALL
+                    </div>
+                    <a class="one" href="#">重要なお知らせ</a>
+                    <a href="#">販売終了情報</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-view">
+            <div class="view-child">
+                <div class="view-first-child">
+                    <h2>重要なお知らせ</h2>
+                    <h3>2023.09.30</h3>
+                </div>
+                <div class="view-second-child">
+                    <h2>本社移転のお知らせ（電話番号・FAX番号の変更）</h2>
+                    <h3>平素より格別のお引き立て誠にありがとうございます。この度弊社は、2023年8月28日に本社を移転することとなりましたのでご案内申し上げます。それに伴い、同日から電話番号・FAX番号が変更となります。なお、メールアドレスに変更はございません。移転先等の情報は<a href="#">こちら</a>のページでご確認ください。</h3>
+                </div>
+            </div>
+            <hr />
+            <div class="view-child">
+                <div class="view-first-child">
+                    <h2>重要なお知らせ</h2>
+                    <h3>2023.09.30</h3>
+                </div>
+                <div class="view-second-child">
+                    <h2>夏季休業のお知らせ</h2>
+                    <h3>弊社では誠に勝手ではございますが、通常定休の土日祝日を含む2023年8月11日(金)から8月15日(火)までの期間を夏季休業とさせていただきます。なお、8月16日(水)より平常通り営業いたします。期間中は何かとご迷惑をお掛けいたしますが、ご了承くださいますようお願いいたします。</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="view-child">
+                <div class="view-first-child">
+                    <h2>販売終了情報</h2>
+                    <h3>2023.09.30</h3>
+                </div>
+                <div class="view-second-child">
+                    <h2>【LOCK STAR-AC】販売終了のお知らせ</h2>
+                    <h3>LOCK STAR-ACは、2023年4月28日に新規販売を終了いたしました。既存のお客様の追加ご購入に関しましては2023年10月31日に終了いたします。お客様にはご迷惑をお掛けいたしますが、何卒、ご理解賜りますよう、よろしくお願い申し上げます。</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="view-child">
+                <div class="view-first-child">
+                    <h2>重要なお知らせ</h2>
+                    <h3>2023.09.30</h3>
+                </div>
+                <div class="view-second-child">
+                    <h2>タイトルがこちらに入ります</h2>
+                    <h3>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="view-child">
+                <div class="view-first-child">
+                    <h2>重要なお知らせ</h2>
+                    <h3>2023.09.30</h3>
+                </div>
+                <div class="view-second-child">
+                    <h2>タイトルがこちらに入ります</h2>
+                    <h3>す。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="view-child">
+                <div class="view-first-child">
+                    <h2>重要なお知らせ</h2>
+                    <h3>2023.09.30</h3>
+                </div>
+                <div class="view-second-child">
+                    <h2>タイトルがこちらに入ります</h2>
+                    <h3>す。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="view-child">
+                <div class="view-first-child">
+                    <h2>重要なお知らせ</h2>
+                    <h3>2023.09.30</h3>
+                </div>
+                <div class="view-second-child">
+                    <h2>タイトルがこちらに入ります</h2>
+                    <h3>す。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</h3>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-second">
+            <div class="navbar-1">
+                <div class="nav-1 gap-1">
+                    <div class="logo-1">
+                        <img onclick="location.href = '#header';" style="cursor: pointer;" src="./img/logo.svg" alt="" />
+                    </div>
+                    <div class="nav-list list-size">
+                        <div class="list-size-div  div-list">
+                            <a href="#">会社情報</a>
+                            <hr class="footer-hr" />
+                        </div>
+                        <div class="list-size-div div-list">
+                            <a href="#">事業内容</a>
+                            <hr class="footer-hr" />
+                        </div>
+                        <div class="list-size-div div-list">
+                            <a href="#">製品一覧</a>
+                            <hr class="footer-hr" />
+                        </div>
+                        <div class="list-size-div div-list">
+                            <a href="#">採用情報</a>
+                            <hr class="footer-hr" />
+                        </div>
+                        <div class="list-size-div div-list">
+                            <a href="#">ニュース</a>
+                            <hr class="footer-hr" />
+                        </div>
+                    </div>
+                </div>
+                <div class="header-btn size-change">
+                    <a class="header-support-1 size-edit" href="#">ユーザーサポート</a>
+                    <a class="header-ask-1 size-edit" href="#">お問い合わせ</a>
+                </div>
+            </div>
+            <p>Copyright © LOGICAL TECH All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+<script>
+  var isOpened = false;
+    function openNav(e) {
+      document.getElementById("mySidenav").style.width = isOpened ? "0" : "100%";
+      if(!isOpened) document.getElementById('burger').classList.add("active")
+      else document.getElementById('burger').classList.remove("active")
+      console.log("isOpened:" , isOpened)
+      isOpened = !isOpened;
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</html>

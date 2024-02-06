@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="smart-phone.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <script src="../style/style.js"></script>
+  </head>
+  <body>
+    <header id="header">
+        <nav>
+          <div class="navbar">
+            <div class="nav">
+              <div class="logo">
+                <img onclick="location.href = '#header';" style="cursor: pointer;" id="logo-img" src="./img/logo.svg" alt="" />
+              </div>
+              <div class="nav-list-1">
+                <a class="nav-a" href="#">会社情報</a>
+                <a class="nav-a" href="#">事業内容</a>
+                <a class="nav-a" href="#">製品一覧</a>
+                <a class="nav-a" href="#">採用情報</a>
+                <a class="nav-a" href="#">ニュース</a>
+              </div>
+              <!-- ============side============== -->
+              <div id="mySidenav" class="sidenav pt-0 pb-0">
+                <div
+                  class="footer-second"
+                  style="height: 100%; padding-top: 121px"
+                >
+                  <div class="navbar-1">
+                    <div class="nav-1 gap-1">
+                      <div class="nav-list list-size">
+                        <div class="list-size-div-1 div-list-1">
+                          <a href="#" class="color-white">会社情報</a>
+                          <hr class="footer-hr-1 w-366 pt-0 pb-0" />
+                        </div>
+                        <div class="list-size-div-1 div-list-1">
+                          <a href="#" class="color-white">事業内容</a>
+                          <hr class="footer-hr-1 w-366 pt-0 pb-0" />
+                        </div>
+                        <div class="list-size-div-1 div-list-1">
+                          <a href="#" class="color-white">製品一覧</a>
+                          <hr class="footer-hr-1 w-366 pt-0 pb-0" />
+                        </div>
+                        <div class="list-size-div-1 div-list-1">
+                          <a href="#" class="color-white">採用情報</a>
+                          <hr class="footer-hr-1 w-366 pt-0 pb-0" />
+                        </div>
+                        <div class="list-size-div-1 div-list-1">
+                          <a href="#" class="color-white">ニュース</a>
+                          <hr class="footer-hr-1 w-366 pt-0 pb-0" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="header-btn size-change">
+                      <a class="header-support-1 color-green size-edit" href="#"
+                        >ユーザーサポート</a
+                      >
+                      <a class="header-ask-1 color-white pl-40 size-edit" href="#"
+                        >お問い合わせ</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ==============end side============== -->
+            </div>
+            <div class="header-btn z-9999">
+              <a class="header-support" href="#">ユーザーサポート</a>
+              <a class="header-ask" href="#">お問い合わせ</a>
+              <a
+                class="burger"
+                id="burger"
+                onclick="openNav()"
+                onclick="this.classList.toggle('active');"
+              ></a>
+            </div>
+          </div>
+        </nav>
+        <div class="login-top-text">
+          <h1>USER LOGIN</h1>
+          <h2 class="h2">ユーザー専用サポートページへのログイン</h2>
+          <div class="bread">
+            <h2>HOME</h2>
+            <img src="./img/bread.svg" alt="" />
+            <h3>ユーザーサポート</h3>
+            <img src="./img/bread.svg" alt="" />
+            <h3>ログイン</h3>
+          </div>
+        </div>
+      </header>
+    <main>
+      <div class="container">
+        <p class="first-p">
+          ロジカルテック各製品のユーザ専用サポートページの共通ログオン画面です。
+        </p>
+        <div class="login-hr">
+          <hr class="first" />
+          <hr class="second" />
+        </div>
+        <div class="list-1">
+          <img src="./img/point.svg" alt="" />
+          <p>ユーザーサポートページをご利用できる条件</p>
+        </div>
+        <div class="list-2">
+          <ul>
+            <li>
+              製品購入後2週間以内のユーザ登録をされていて、なおかつサポート期間中の方
+            </li>
+            <li>有償サポートをご契約中の方</li>
+          </ul>
+        </div>
+        <div class="list-1">
+          <img src="./img/point.svg" alt="" />
+          <p>ご利用のブラウザ</p>
+        </div>
+        <div class="list-2">
+          <p>
+            LOCK STAR-SKシリーズとLOCK STAR
+            認証ガードマン(メモリなし)のサポートページ内でセキュリティキーの初期化を行う場合は、ActiveXを利用するため、Internet
+            Explorerでログオンする必要があります。Internet
+            Explorerを管理者権限で実行し、信頼済みサイトに登録してください。また、Internet
+            Explorerの署名済みのActiveXコントロールのダウンロードを許可してください。Edge(Chromium)をご利用の場合は、署名済みのActiveXコントロールのダウンロードの許可、IEモードでの再読み込み、互換表示でお試しください。ただし、OSやEdgeのバージョンなどの環境や、お客様のブラウザの設定により動作しない場合もありますのでご了承ください。
+          </p>
+        </div>
+        <div class="list-1">
+          <img src="./img/point.svg" alt="" />
+          <p>ご利用のブラウザ</p>
+        </div>
+        <div class="list-2">
+          <ul>
+            <li>
+              ユーザIDとパスワードは、必ずご担当者様本人が責任を持って管理するようにしてください。
+            </li>
+            <li>
+              ユーザIDとパスワードは、第三者に利用させたり、貸与・譲渡をしないようにしてください。
+            </li>
+            <li>
+              ユーザIDとパスワードは、複数人で共有しないようにしてください。
+            </li>
+            <li>
+              ユーザIDとパスワード使用上の過失および第三者の利用に伴う損害について、弊社は一切の責任を負いません。
+            </li>
+          </ul>
+        </div>
+        <div class="list-1">
+          <img src="./img/point.svg" alt="" />
+          <p>ご利用のブラウザ</p>
+        </div>
+        <div class="list-2">
+          <p>
+            ログオンするには、弊社発行のユーザIDとパスワードが必要です。製品名を選択後、ユーザIDとパスワードを入力して「ログオン」ボタンをクリックしてください。ログオンできない場合は、ユーザIDとパスワードを正しく入力しているか、サポート期間が切れていないかをご確認ください。どうしてもログオンできない場合は、お手数ですが弊社までご連絡ください。
+          </p>
+        </div>
+      </div>
+      <div class="login-window">
+        <h2>ログインフォーム</h2>
+        <div class="name">
+          <h3>製品名</h3>
+          <select name="" id="">
+            <option value="">企業へのお問い合わせ</option>
+            <option value="">ご利用の製品を選択してください。</option>
+            <option value="">ご利用の製品を選択してください。</option>
+          </select>
+        </div>
+        <div class="id">
+          <h3>ユーザーID</h3>
+          <input type="text" placeholder="例：冨士 太郎" />
+        </div>
+        <div class="id">
+          <h3>パスワード</h3>
+          <input type="text" placeholder="例：ロジカルテック株式会社" />
+        </div>
+        <div class="submit">
+          <div class="header-content-a">
+            <a href="#">
+              <p>送信する</p>
+              <img src="./img/right.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <div class="footer-second">
+            <div class="navbar-1">
+                <div class="nav-1 gap-1">
+                    <div class="logo-1">
+                        <img onclick="location.href = '#header';" style="cursor: pointer;" src="./img/logo.svg" alt="" />
+                    </div>
+                    <div class="nav-list list-size">
+                        <div class="list-size-div  div-list">
+                            <a href="#">会社情報</a>
+                            <hr class="footer-hr" />
+                        </div>
+                        <div class="list-size-div div-list">
+                            <a href="#">事業内容</a>
+                            <hr class="footer-hr" />
+                        </div>
+                        <div class="list-size-div div-list">
+                            <a href="#">製品一覧</a>
+                            <hr class="footer-hr" />
+                        </div>
+                        <div class="list-size-div div-list">
+                            <a href="#">採用情報</a>
+                            <hr class="footer-hr" />
+                        </div>
+                        <div class="list-size-div div-list">
+                            <a href="#">ニュース</a>
+                            <hr class="footer-hr" />
+                        </div>
+                    </div>
+                </div>
+                <div class="header-btn size-change">
+                    <a class="header-support-1 size-edit" href="#">ユーザーサポート</a>
+                    <a class="header-ask-1 size-edit" href="#">お問い合わせ</a>
+                </div>
+            </div>
+            <p>Copyright © LOGICAL TECH All Rights Reserved.</p>
+        </div>
+    </footer>
+  </body>
+  <script>
+    var isOpened = false;
+    function openNav(e) {
+      document.getElementById("mySidenav").style.width = isOpened ? "0" : "100%";
+      if(!isOpened) document.getElementById('burger').classList.add("active")
+      else document.getElementById('burger').classList.remove("active")
+      console.log("isOpened:" , isOpened)
+      isOpened = !isOpened;
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+</html>
